@@ -1,0 +1,76 @@
+body {
+    
+}
+
+.header {
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'Fredoka One', cursive;
+    font-size: 3.5rem;
+    color: #6474e5;
+}
+
+label {
+    text-align: center;
+    display: block;
+    margin-top: 10px;
+    background-color: #6474e5;
+    color: white;
+    border-top-right-radius: 20px;
+  }
+.main{
+    border: 1px solid #6474e5;
+    border-bottom-left-radius: 20px;
+    height: 50vh;
+    overflow: auto;
+    padding: 5px;
+}
+
+.completed{
+    border: 1px solid #6474e5;
+    border-bottom-left-radius: 20px;
+    height: 50vh;
+    padding: 5px;
+    overflow: auto;
+    position: relative;
+}
+
+.n_task{
+    color: black;
+    padding: 2px;
+    cursor: pointer;
+    /* background-color: #F4a4a4; */
+    border-bottom: 2px solid #F4a4a4;
+}
+
+.n_task:hover{
+    color: black;
+    background-color: #F4a4a4;
+}
+
+.close {
+    position: relative;
+    top: 0;
+    right: 0;
+    padding: 5px;
+    z-index: 1;
+    cursor: pointer ;
+  } 
+.close i {
+    color: #6474e5;
+    font-size: 20px;
+  }
+#taskdiv{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+}
+
+#complete-clear{
+    cursor: pointer;
+}
+
+  
+
